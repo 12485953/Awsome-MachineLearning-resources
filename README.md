@@ -1,6 +1,3 @@
-# Awsome-MachineLearning-resources
-Record of courses, tutorials, blogs and other useful resources related to machine learning
-
 ## 教材网课/博主
 
 - 入门指南/经验类：
@@ -9,6 +6,7 @@ Record of courses, tutorials, blogs and other useful resources related to machin
     - Lil’log： https://lilianweng.github.io/
     - [Sebastian Raschka](https://sebastianraschka.com/)博客（深度学习/大模型前沿知识&课程）：https://magazine.sebastianraschka.com/
     - [**Jay Alammar](https://jalammar.github.io/)博客：**https://jalammar.github.io/
+    - Andrej主页(一系列演讲和博客): https://karpathy.ai/
     - 知乎苏剑林（前沿内容博主）
     - 知乎张俊林
     - 知乎时间旅客（LLM前沿知识解答）
@@ -21,15 +19,23 @@ Record of courses, tutorials, blogs and other useful resources related to machin
     - Statquest：深度学习讲解
     - Studio-Borolo：NLP，LLM
 - 网课：
+    - 从深度学习入门到构建GPT (Andrej课程): https://karpathy.ai/zero-to-hero.html
     - NLP：
         - B站：NLP教程完全版（搬运youtube上Wang Shusen老师的NLP课程）（评价非常好，可以试着听一下）
+    - 生成模型相关：
+        - 何凯明深度生成模型课程
+    - Andrej开发的LLM101 course:
+        - 课程主页（暂时还没开课）:　https://github.com/karpathy/LLM101n
+        - 陆续更新的一系列模型底层实现代码: github **EurekaLabsAI:**　https://github.com/EurekaLabsAI
 - 面经：
     - 公众号：AIGC小白入门记
-    
+- 其他：
+    - 带读AI经典论文：https://b23.tv/K3GbuVQ
 
 ## 基础知识
 
 - 关于深度学习训练：
+    - A recipe for training neural network: https://karpathy.github.io/2019/04/25/recipe/
     - https://karpathy.github.io/2019/04/25/recipe/
     - 如何加快模型训练：
         - https://blog.csdn.net/python_miao/article/details/113085416
@@ -60,6 +66,9 @@ Record of courses, tutorials, blogs and other useful resources related to machin
 - 大模型相关：
     - 大模型入门tutorial：https://www.bilibili.com/video/BV1pF4m1V7FB/?spm_id_from=333.999.0.0&vd_source=c739db1ebdd361d47af5a0b8497417db
     - awsome-LLM-resources (大模型学习资源汇总)：[https://github.com/WangRongsheng/awesome-LLM-resourses?tab=readme-ov-file#课程-Course](https://github.com/WangRongsheng/awesome-LLM-resourses?tab=readme-ov-file#%E8%AF%BE%E7%A8%8B-Course)
+    - 《大语言模型》书籍网站：[大语言模型 | LLMBook-zh](https://llmbook-zh.github.io/)
+        - 对应的英文综述：[RUCAIBox/LLMSurvey: The official GitHub page for the survey paper "A Survey of Large Language Models".](https://github.com/RUCAIBox/LLMSurvey)
+    - 《Hands-on LLM》:这本书是有结合代码的
     - awsome-LLM-papers & project: https://github.com/Hannibal046/Awesome-LLM?tab=readme-ov-file
     - 微软一系列大模型：https://github.com/microsoft/unilm
     - 课程：
@@ -72,11 +81,19 @@ Record of courses, tutorials, blogs and other useful resources related to machin
     - 大模型视频课程和资源汇总：https://zhuanlan.zhihu.com/p/654693985?utm_psn=1837107148598960130
     - 大模型论文阅读清单&博客汇总：https://sebastianraschka.com/blog/2023/llm-reading-list.html
     - [Sebastian Raschka](https://sebastianraschka.com/)博客（深度学习/大模型前沿知识&课程）：https://magazine.sebastianraschka.com/
+    - GPT相关：
+        - Illustrated GPT-2：[The Illustrated GPT-2 (Visualizing Transformer Language Models) – Jay Alammar – Visualizing machine learning one concept at a time.](https://jalammar.github.io/illustrated-gpt2/)
+        - andrej关于GPT的演讲： https://b23.tv/AwnzGnx
+        - 李沐GPT系列串讲：https://b23.tv/K7kqIKj
+        - 3b1b关于GPT的几个视频
+        - StatQuest关于GPT的几个视频
+        - andrej build GPT from scratch：
     - stanford cs25 transformer united course:
         - 课程主页：https://web.stanford.edu/class/cs25/
         - 知乎上关于这门课程的推荐：https://zhuanlan.zhihu.com/p/703579466?utm_psn=1837109783880155136
     - 从零训练1B以下小模型汇总：https://zhuanlan.zhihu.com/p/693252663?utm_psn=1837110354259361795
-    - 
+    - 开源大模型：
+        - Meta OPT (Open Pretrained Transformer一系列decoder only Transformer):
 
 ## 前沿知识
 
