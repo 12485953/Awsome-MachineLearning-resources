@@ -7,6 +7,8 @@
     - [Sebastian Raschka](https://sebastianraschka.com/)博客（深度学习/大模型前沿知识&课程）：https://magazine.sebastianraschka.com/
     - [**Jay Alammar](https://jalammar.github.io/)博客：**https://jalammar.github.io/
     - Andrej主页(一系列演讲和博客): https://karpathy.ai/
+    - Aman Chadha（一系列AI前沿内容，python编程等各领域内容）：https://aman.ai/
+    - **Christopher Olah博客（神经网络，RNN，Attention）：**https://colah.github.io/
     - 知乎苏剑林（前沿内容博主）
     - 知乎张俊林
     - 知乎时间旅客（LLM前沿知识解答）
@@ -48,6 +50,9 @@
 - transformer
     - pytorch实现：https://h-huang.github.io/tutorials/beginner/transformer_tutorial.html
     - transformer面试题：https://mp.weixin.qq.com/s/FE5_kRvMhfJLWbyOSLxJwA
+    - **A Mathematical Framework for Transformer Circuits:** https://transformer-circuits.pub/2021/framework/index.html
+        - 解读1：https://www.youtube.com/watch?v=7crsHGsh3p8&list=PLoyGOS2WIonajhAVqKUgEMNmeq3nEeM51&index=4
+        - 解读2：https://www.youtube.com/watch?v=KV5gbOmHbjU
 - 对比学习：
     - B站李沐对比学习论文串讲
     - B站up数学家是我理想的视频：contrastive learning
@@ -63,8 +68,16 @@
     - diffusion model and score-based generative model: https://cbmm.mit.edu/video/diffusion-and-score-based-generative-models
 - Chain of Thoughts:
     - 李沐B站视频
+- 信息论相关：
+    - 图解信息论：https://colah.github.io/posts/2015-09-Visual-Information/
 - 大模型相关：
+    - **A Mathematical Framework for Transformer Circuits:** https://transformer-circuits.pub/2021/framework/index.html
+        - 解读1：https://www.youtube.com/watch?v=7crsHGsh3p8&list=PLoyGOS2WIonajhAVqKUgEMNmeq3nEeM51&index=4
+        - 解读2：https://www.youtube.com/watch?v=KV5gbOmHbjU
+    - 大模型书籍（东北大学长综述）Foundations of LLM：https://arxiv.org/abs/2501.09223
     - 大模型入门tutorial：https://www.bilibili.com/video/BV1pF4m1V7FB/?spm_id_from=333.999.0.0&vd_source=c739db1ebdd361d47af5a0b8497417db
+    - LLM_from_scratch1: https://github.com/AIDajiangtang/LLM-from-scratch
+    - LLM_from_scratch2: https://github.com/rasbt/LLMs-from-scratch
     - awsome-LLM-resources (大模型学习资源汇总)：[https://github.com/WangRongsheng/awesome-LLM-resourses?tab=readme-ov-file#课程-Course](https://github.com/WangRongsheng/awesome-LLM-resourses?tab=readme-ov-file#%E8%AF%BE%E7%A8%8B-Course)
     - 《大语言模型》书籍网站：[大语言模型 | LLMBook-zh](https://llmbook-zh.github.io/)
         - 对应的英文综述：[RUCAIBox/LLMSurvey: The official GitHub page for the survey paper "A Survey of Large Language Models".](https://github.com/RUCAIBox/LLMSurvey)
@@ -91,9 +104,17 @@
     - stanford cs25 transformer united course:
         - 课程主页：https://web.stanford.edu/class/cs25/
         - 知乎上关于这门课程的推荐：https://zhuanlan.zhihu.com/p/703579466?utm_psn=1837109783880155136
+    - Physics of language models (Zeyuan Zhu的一系列关于大模型关键部件和问题设置的论文): https://physics.allen-zhu.com/home
     - 从零训练1B以下小模型汇总：https://zhuanlan.zhihu.com/p/693252663?utm_psn=1837110354259361795
     - 开源大模型：
         - Meta OPT (Open Pretrained Transformer一系列decoder only Transformer):
+    - 推理模型：
+        - 图解推理模型：https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-reasoning-llms
+        - understanding reasoning llm: https://sebastianraschka.com/blog/2025/understanding-reasoning-llms.html
+        - 
+    - RLHF：
+        - OpenRLHF框架：https://github.com/OpenRLHF/OpenRLHF
+        - PPO大模型训练经验：https://hijkzzz.notion.site/rlhf-implementation-tricks?v=158d9a33ecc98132bf9e000c39227361
 
 ## 前沿知识
 
@@ -111,8 +132,20 @@
     - 集智neuroAI读书会
 - 深度学习网络的宽度和深度怎么理解：
     - https://www.zhihu.com/question/291790340/answer/2407587819?utm_psn=1748655146475839488
+- 神经网络与流形，拓扑：
+    - https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/
+- Deepseek系列
+    - deepseek primer：https://aman.ai/primers/ai/deepseek-R1/
+    - illustrated deepseek-R1：https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1
+    - deepseek解读：https://mp.weixin.qq.com/s/cUGA4ujsumNQfVRDGRmxWA
+    - deepseek论文详解系列：https://b23.tv/rqalFyO
+    - deepseek技术解读：https://www.zhihu.com/question/10751571725/answer/94225553400?utm_psn=1875312097199546368
+- 神经网络/深度学习可解释性
+    - handbook on current research methods in mechanistic interpretability：https://sidn.baulab.info/
+    - Structure and interpretability of deep networks course：https://sidn.csail.mit.edu/
 
 ## 实用工具
 
 - WANDB：实时los，acc可视化工具？
 - labml：各种模型架构实现+逐行代码讲解
+- 大模型next token prediction概率可视化demo：https://alonsosilva-nexttokenprediction.hf.space/
