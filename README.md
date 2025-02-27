@@ -115,6 +115,7 @@
     - RLHF：
         - OpenRLHF框架：https://github.com/OpenRLHF/OpenRLHF
         - PPO大模型训练经验：https://hijkzzz.notion.site/rlhf-implementation-tricks?v=158d9a33ecc98132bf9e000c39227361
+        - 大模型RLHF全链路讲解：https://mp.weixin.qq.com/s/S72LO26IsZ8AED8sQKIWnQ 
 
 ## 前沿知识
 
